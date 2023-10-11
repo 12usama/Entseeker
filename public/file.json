@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Music Festivals",
+      "image": "https://i.ibb.co/cvDSHV9/mu.jpg",
+      "price": "$50.00",
+      "description": "Join us for a weekend of live music and fun in the sun!",
+	"details_img": "https://i.ibb.co/WvjVTHh/Enjoy-the-Sound.png",
+      "button": "Buy Tickets"
+    },
+    {
+      "name": " Theater and Performing Arts",
+      "image": "https://i.ibb.co/8Xn1RX4/te.jpg",
+      "price": "$30.00",
+      "description": "Experience the magic of drama in exclusive theaters.",
+	"details_img": "https://i.ibb.co/1v9NvPf/tp.jpg",
+      "button": "Get Tickets"
+    },
+    {
+      "name": "Movie Premiere",
+      "image": "https://i.ibb.co/S7jHZ55/mv.jpg",
+      "price": "$20.00",
+      "description": "Be the first to see the most anticipated film of the year!",
+	"details_img": "https://i.ibb.co/KxwphpT/movie.jpg",
+      "button": "Book Now"
+    },
+    {
+      "name": "Comedy Night",
+      "image": "https://i.ibb.co/MBWWxc9/co.jpg",
+      "price": "$15.00",
+      "description": "Laugh your heart out with top comedians in town!",
+	"details_img": "https://i.ibb.co/KWdqJCJ/Screenshot-1.png",
+      "button": "Purchase Tickets"
+    },
+    {
+      "name": "Championship Matches",
+      "image": "https://i.ibb.co/VYgg0Xt/sport.jpg",
+      "price": "$25.00",
+      "description": "Witness the intense battle for the championship title.",
+	"details_img": "https://i.ibb.co/hyRZ6Mn/wc.jpg",
+      "button": "Get Tickets"
+    },
+    {
+      "name": "Photography Workshop",
+      "image": "https://i.ibb.co/s5K94d2/phs.png",
+      "price": "$50.00",
+      "description": "Hone your photography skills with expert guidance.",
+	"details_img": "https://i.ibb.co/0rH5djV/photo.jpg",
+      "button": "Register Now"
+    }
+  ]
+
