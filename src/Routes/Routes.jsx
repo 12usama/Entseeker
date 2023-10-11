@@ -3,6 +3,7 @@ import Root from "../Layouts/Root";
 import Home from "../Layouts/Home/Home";
 import About from "../Layouts/AboutUs/About";
 import LogIn from "../Layouts/LogIn/LogIn";
+import SignIn from "../Layouts/LogIn/SignIn";
 
 
 const routes = createBrowserRouter([
@@ -21,7 +22,12 @@ const routes = createBrowserRouter([
         {
           path: '/login',
           element: <LogIn></LogIn>
+        },
+        {
+          path: '/signin',
+          element: <SignIn></SignIn>
         }
+
       ]
     },
   ]);
