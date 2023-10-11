@@ -15,7 +15,7 @@ const Header = () => {
 
     </>
     return (
-        <div className="max-w-7xl mx-auto bg-blue-100 rounded-lg">
+        <div className="px-5 mx-auto bg-blue-100 rounded-lg">
             <div className="navbar ">
                 <div className="navbar-start">
                     <img className="w-[100px]" src="/src/assets/Entseeker.png" alt="" />
