@@ -41,6 +41,16 @@ const Home = () => {
             </div>
             <Cards></Cards>
             <Stat></Stat>
+            <div className="hero  bg-yellow-200">
+                <div className="hero-content flex-col lg:flex-row-reverse">
+                    <img src="https://i.ibb.co/Tv1fbs1/ucl.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+                    <div>
+                        <h1 className="text-5xl font-bold text-green-500">Up Comming Event!</h1>
+                        <p className="text-xl py-6">The UCL final match is knocking at the door. Prebook tickets to get the feelings of watching in the stedium.</p>
+                        <button className="btn btn-success">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
     );
