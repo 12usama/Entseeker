@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "name": "Music Festivals",
       "image": "https://i.ibb.co/cvDSHV9/mu.jpg",
       "price": "$50.00",
@@ -8,6 +9,7 @@
       "button": "Buy Tickets"
     },
     {
+      "id": 2,
       "name": " Theater and Performing Arts",
       "image": "https://i.ibb.co/8Xn1RX4/te.jpg",
       "price": "$30.00",
@@ -16,6 +18,7 @@
       "button": "Get Tickets"
     },
     {
+      "id": 3,
       "name": "Movie Premiere",
       "image": "https://i.ibb.co/S7jHZ55/mv.jpg",
       "price": "$20.00",
@@ -24,6 +27,7 @@
       "button": "Book Now"
     },
     {
+      "id": 4,
       "name": "Comedy Night",
       "image": "https://i.ibb.co/MBWWxc9/co.jpg",
       "price": "$15.00",
@@ -32,6 +36,7 @@
       "button": "Purchase Tickets"
     },
     {
+      "id": 5,
       "name": "Championship Matches",
       "image": "https://i.ibb.co/VYgg0Xt/sport.jpg",
       "price": "$25.00",
@@ -40,6 +45,7 @@
       "button": "Get Tickets"
     },
     {
+      "id": 6,
       "name": "Photography Workshop",
       "image": "https://i.ibb.co/s5K94d2/phs.png",
       "price": "$50.00",

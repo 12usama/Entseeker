@@ -4,6 +4,7 @@ import Home from "../Layouts/Home/Home";
 import About from "../Layouts/AboutUs/About";
 import LogIn from "../Layouts/LogIn/LogIn";
 import SignIn from "../Layouts/LogIn/SignIn";
+import Details from "../Layouts/Home/cards/Details";
 
 
 const routes = createBrowserRouter([
@@ -26,6 +27,10 @@ const routes = createBrowserRouter([
         {
           path: '/signin',
           element: <SignIn></SignIn>
+        },
+        {
+          path: '/details',
+          element: <Details></Details>
         }
 
       ]
