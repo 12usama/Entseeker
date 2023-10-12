@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
+import { FaGoogle } from 'react-icons/fa';
 
 const SignIn = () => {
     const links = <>
         <a className="text-blue-500 font-medium"><NavLink to="/login" >Go to login</NavLink></a>
-        </>
+    </>
     return (
         <div className="max-w-7xl mx-auto mt-10 mb-10">
             <div className="hero min-h-screen bg-blue-200 rounded-lg">
@@ -11,6 +12,10 @@ const SignIn = () => {
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl text-red-500 font-bold">Sign In now!</h1>
                         <p className="py-6 text-xl">If you don't have any account, then you can easily sign up here. <br /> and then you can easily log in anytime.</p>
+                        <button className="btn border border-blue-500 bg-blue-500 text-white">
+                           <FaGoogle></FaGoogle>
+                           Login With Google
+                        </button>
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form className="card-body">
@@ -37,12 +42,12 @@ const SignIn = () => {
                                     <span className="label-text">Gender</span>
                                 </label>
                                 <div >
-                                <input type="radio" value="Male" name="gender" /> Male  <br />
-                                <input type="radio" value="Female" name="gender" /> Female <br />
-                                <input type="radio" value="Other" name="gender" /> Other
+                                    <input type="radio" value="Male" name="gender" /> Male  <br />
+                                    <input type="radio" value="Female" name="gender" /> Female <br />
+                                    <input type="radio" value="Other" name="gender" /> Other
+                                </div>
                             </div>
-                            </div>
-                           
+
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>

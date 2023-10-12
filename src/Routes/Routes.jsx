@@ -4,7 +4,9 @@ import Home from "../Layouts/Home/Home";
 import About from "../Layouts/AboutUs/About";
 import LogIn from "../Layouts/LogIn/LogIn";
 import SignIn from "../Layouts/LogIn/SignIn";
-import Details from "../Layouts/Home/cards/Details";
+import Details from "../Layouts/Home/details/Details";
+import Service from "../Layouts/services/Service";
+
 
 
 const routes = createBrowserRouter([
@@ -29,10 +31,14 @@ const routes = createBrowserRouter([
           element: <SignIn></SignIn>
         },
         {
-          path: '/details',
-          element: <Details></Details>
+          path: '/service',
+          element: <Service></Service>
+        },
+        {
+          path: '/details/:id',
+          element: <Details></Details>,
+          loader:()=>fetch('/file.json')
         }
-
       ]
     },
   ]);

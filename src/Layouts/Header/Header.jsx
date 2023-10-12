@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -9,9 +10,9 @@ const Header = () => {
         <li><NavLink to="/aboutus" className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-red-600 underline font-bold" : ""
         } >About Us</NavLink></li>
-        <li><NavLink to="/login" className={({ isActive, isPending }) =>
+        <li><NavLink to="/service" className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-red-600 underline font-bold" : ""
-        } >Log In</NavLink></li>
+        } >Services</NavLink></li>
 
     </>
     return (
@@ -39,6 +40,9 @@ const Header = () => {
                             <img src="/src/assets/avt.png" />
                         </div>
                     </div>
+                    <Link to="/login"> 
+                        <button className="btn bg-blue-500 text-white font-semibold p-4">Login</button>
+                    </Link>
 
                 </div>
             </div>

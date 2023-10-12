@@ -2,157 +2,169 @@
 
 const Movies = () => {
     return (
-        <div className="overflow-x-auto">
-  <table className="table">
-    {/* head */}
-    <thead>
-      <tr>
-        <th>
-          <label>
-            <input type="checkbox" className="checkbox" />
-          </label>
-        </th>
-        <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      {/* row 1 */}
-      <tr>
-        <th>
-          <label>
-            <input type="checkbox" className="checkbox" />
-          </label>
-        </th>
-        <td>
-          <div className="flex items-center space-x-3">
-            <div className="avatar">
-              <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-2@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
-            <div>
-              <div className="font-bold">Hart Hagerty</div>
-              <div className="text-sm opacity-50">United States</div>
-            </div>
-          </div>
-        </td>
-        <td>
-          Zemlak, Daniel and Leannon
-          <br/>
-          <span className="badge badge-ghost badge-sm">Desktop Support Technician</span>
-        </td>
-        <td>Purple</td>
-        <th>
-          <button className="btn btn-ghost btn-xs">details</button>
-        </th>
-      </tr>
-      {/* row 2 */}
-      <tr>
-        <th>
-          <label>
-            <input type="checkbox" className="checkbox" />
-          </label>
-        </th>
-        <td>
-          <div className="flex items-center space-x-3">
-            <div className="avatar">
-              <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-3@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
-            <div>
-              <div className="font-bold">Brice Swyre</div>
-              <div className="text-sm opacity-50">China</div>
-            </div>
-          </div>
-        </td>
-        <td>
-          Carroll Group
-          <br/>
-          <span className="badge badge-ghost badge-sm">Tax Accountant</span>
-        </td>
-        <td>Red</td>
-        <th>
-          <button className="btn btn-ghost btn-xs">details</button>
-        </th>
-      </tr>
-      {/* row 3 */}
-      <tr>
-        <th>
-          <label>
-            <input type="checkbox" className="checkbox" />
-          </label>
-        </th>
-        <td>
-          <div className="flex items-center space-x-3">
-            <div className="avatar">
-              <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-4@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
-            <div>
-              <div className="font-bold">Marjy Ferencz</div>
-              <div className="text-sm opacity-50">Russia</div>
-            </div>
-          </div>
-        </td>
-        <td>
-          Rowe-Schoen
-          <br/>
-          <span className="badge badge-ghost badge-sm">Office Assistant I</span>
-        </td>
-        <td>Crimson</td>
-        <th>
-          <button className="btn btn-ghost btn-xs">details</button>
-        </th>
-      </tr>
-      {/* row 4 */}
-      <tr>
-        <th>
-          <label>
-            <input type="checkbox" className="checkbox" />
-          </label>
-        </th>
-        <td>
-          <div className="flex items-center space-x-3">
-            <div className="avatar">
-              <div className="mask mask-squircle w-12 h-12">
-                <img src="/tailwind-css-component-profile-5@56w.png" alt="Avatar Tailwind CSS Component" />
-              </div>
-            </div>
-            <div>
-              <div className="font-bold">Yancy Tear</div>
-              <div className="text-sm opacity-50">Brazil</div>
-            </div>
-          </div>
-        </td>
-        <td>
-          Wyman-Ledner
-          <br/>
-          <span className="badge badge-ghost badge-sm">Community Outreach Specialist</span>
-        </td>
-        <td>Indigo</td>
-        <th>
-          <button className="btn btn-ghost btn-xs">details</button>
-        </th>
-      </tr>
-    </tbody>
-    {/* foot */}
-    <tfoot>
-      <tr>
-        <th></th>
-        <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
-        <th></th>
-      </tr>
-    </tfoot>
-    
-  </table>
-</div>
+      <div className="overflow-x-auto h-96">
+      <table className="table table-pin-rows">
+      <thead>
+        <tr>
+          <th>A</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Ant-Man</td> <td>780</td></tr>
+        <tr><td>Aquaman</td><td>480</td></tr>
+        <tr><td>Asterix</td><td>240</td></tr>
+        <tr><td>The Avengers</td><td>1040</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>B</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Batman</td><td>640</td></tr>
+        <tr><td>Black Panther</td><td>780</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>C</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Captain America</td><td>787</td></tr>
+        <tr><td>Captain Marvel</td><td>581</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>D</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Daredevil</td><td>180</td></tr>
+        <tr><td>Doctor Strange</td><td>930</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>E</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Elektra</td><td>80</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>F</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Fantastic Four</td><td>428</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>G</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Ghost Rider</td><td>370</td></tr>
+        <tr><td>Guardians of the Galaxy</td><td>480</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>H</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Hawkeye</td><td>278</td></tr>
+        <tr><td>Hellboy</td><td>84</td></tr>
+        <tr><td>Incredible Hulk</td><td>580</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>I</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Iron Man</td><td>789</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>M</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Marvelman</td><td>281</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>R</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>The Rocketeer</td><td>78</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>S</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Shutter Island</td><td>725</td></tr>
+        <tr><td>Spider-Man</td><td>1080</td></tr>
+        <tr><td>Seven</td><td>783</td></tr>
+        <tr><td>Superman</td><td>585</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>T</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Tenet</td><td>786</td></tr>
+        <tr><td>Thor</td><td>980</td></tr>
+        <tr><td>Train to Bussan</td><td>1020</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>W</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Wolverine</td><td>70</td></tr>
+        <tr><td>Wonder Woman</td><td>380</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>X</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>X-Men</td><td>720</td></tr>
+      </tbody>
+      <thead>
+        <tr>
+          <th>Z</th>
+          <th>Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Zombie Land</td><td>510</td></tr>
+      </tbody>
+      </table>
+    </div>
     );
 };
 
