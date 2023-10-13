@@ -6,6 +6,7 @@ import LogIn from "../Layouts/LogIn/LogIn";
 import SignIn from "../Layouts/LogIn/SignIn";
 import Details from "../Layouts/Home/details/Details";
 import Service from "../Layouts/services/Service";
+import PrivateRoute from "./PrivateRoute";
 
 
 
@@ -36,7 +37,7 @@ const routes = createBrowserRouter([
         },
         {
           path: '/details/:id',
-          element: <Details></Details>,
+          element: <PrivateRoute><Details></Details></PrivateRoute>,
           loader:()=>fetch('/file.json')
         }
       ]

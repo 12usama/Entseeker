@@ -1,8 +1,32 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { FaGoogle } from 'react-icons/fa';
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 
 const LogIn = () => {
+    const {signIn} = useContext(AuthContext);
+    const location = useLocation();
+    const navigate = useNavigate();
+    console.log('located', location)
+
+    const handleLogin = e =>{
+        e.preventDefault();
+        console.log(e.currentTarget);
+        const form = new FormData(e.currentTarget);
+        const email = form.get('email');
+        const password = form.get('password');
+        console.log(email,password);
+        signIn(email, password)
+        .then(result =>{
+            console.log(result.user)
+            navigate(location?.state ? location.state : '/');
+        })
+        .catch(error =>{
+            console.error(error);
+        })
+    }
+
     const links = <>
         <a className="text-blue-500 font-medium"><NavLink to="/signin" >Create an account</NavLink></a>
     </>
@@ -11,18 +35,18 @@ const LogIn = () => {
             <div className="hero min-h-screen rounded-xl bg-cover  bg-[url('https://i.ibb.co/T8S79wk/login.jpg')]">
                 <div className="hero-content flex-col ">
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100  ">
-                        <form className="card-body">
+                        <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="email" placeholder="email" className="input input-bordered" required />
+                                <input type="email" name="email" placeholder="email" className="input input-bordered" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="password" placeholder="password" className="input input-bordered" required />
+                                <input type="password" name="password" placeholder="password" className="input input-bordered" required />
                                 <label className="label">
                                     <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                 </label>
@@ -33,7 +57,7 @@ const LogIn = () => {
                                     <FaGoogle></FaGoogle>
                                     Login With Google
                                 </button>
-                                <p>Don't have id then {links} </p>
+                                <p>Dont have id then {links} </p>
                             </div>
                             
                         </form>
