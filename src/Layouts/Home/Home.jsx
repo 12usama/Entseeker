@@ -5,7 +5,7 @@ import Stat from "./stat/Stat";
 const Home = () => {
     return (
         <div className="max-w-7xl mx-auto">
-            <div className="h-[60vh] lg:h-[80vh] bg-cover  bg-[url('https://i.ibb.co/bsmXHmz/Enjoy-the-Time-Enjoy-your-life.png')]">
+            <div className="h-[60vh] lg:h-[80vh]  bg-cover  bg-[url('https://i.ibb.co/bsmXHmz/Enjoy-the-Time-Enjoy-your-life.png')]">
                 <div className="grid justify-center h-full">
                     <h1 className=" text-2xl lg:text-6xl font-bold text-white mt-5">Stay With Entseeker</h1>
                 </div>
@@ -43,7 +43,7 @@ const Home = () => {
             <Stat></Stat>
             <div className="hero  bg-yellow-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src="https://i.ibb.co/Tv1fbs1/ucl.jpg" className="max-w-sm rounded-lg shadow-2xl" />
+                    <img src="https://i.ibb.co.com/ZzhHh6DP/ufcl.png" className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold text-green-500">Up Comming Event!</h1>
                         <p className="text-xl py-6">The UCL final match is knocking at the door. Prebook tickets to get the feelings of watching in the stedium.</p>
