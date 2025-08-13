@@ -1,8 +1,61 @@
-# React + Vite
+# 🎬 Enseeker - Entertainment Hub (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Enseeker is a fun and engaging entertainment platform where users can enjoy movies, comedy, sports, photography, theater, music, and more. Users can also create an account and log in to personalize their experience. This is the **frontend** of the Enseeker application, built with React and Vite, styled using Tailwind CSS and DaisyUI, designed for responsiveness and a smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
+
+🌐 [https://entseeker.vercel.app/](https://entseeker.vercel.app/)
+
+---
+
+## ✨ Features
+
+- 🎥 Explore movies, comedy, music, theater, sports, and photography content
+- 🔐 User Authentication (login and signup)
+- 📱 Fully Responsive Design
+- ⚡ Fast and lightweight (Vite)
+- 🎨 Beautiful UI using Tailwind CSS + DaisyUI
+- 🧠 Interactive and easy-to-navigate interface
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+Clone the project and install dependencies:
+
+```bash
+git clone https://github.com/your-username/enseeker-frontend.git
+cd enseeker-frontend
+npm install
+npm run dev
+```
+---
+## ⚙️ Environment Variables
+To run this project locally, create a .env file in the root directory and add:
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+---
+## 🛠 Tech Stack
+
+| Technology    | Purpose                     |
+| ------------- | --------------------------- |
+| React + Vite  | Frontend Framework          |
+| Tailwind CSS  | Styling                     |
+| DaisyUI       | UI Components               |
+| Firebase Auth | User Authentication         |
+| Axios / Fetch | API Calls (if needed later) |
+| React Router  | Client-side Routing         |
+| Vercel        | Deployment                  |
+
+---
+## 🙋‍♂️ Author
+Developed by Md. Usama Alam Ridwane
+
+🔗 Connect on LinkedIn
