@@ -56,11 +56,11 @@ VITE_FIREBASE_APP_ID=your_app_id
 
 ---
 ## 🖼️ Screenshots
+## 🏠 Home Page
+![Home Page](https://i.ibb.co.com/C5s0zczt/enthome.png)
 
-[!🏠 Home Page](https://i.ibb.co.com/C5s0zczt/enthome.png)
-
-
-[!🔐 Login Page](https://i.ibb.co.com/Qj9hFxQw/logent.png)
+## 🔐 Login Page
+![Login Page](https://i.ibb.co.com/Qj9hFxQw/logent.png)
 ---
 ## 🙋‍♂️ Author
 Developed by Md. Usama Alam Ridwane
